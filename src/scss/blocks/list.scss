@@ -1,0 +1,14 @@
+.list {
+  &__number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 46px;
+    border-radius: 30.5px;
+    border: 1px solid #584d62;
+    font-family: "Fraunces";
+    color: #24053e;
+    font-weight: 600;
+  }
+}
