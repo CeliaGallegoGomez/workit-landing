@@ -1,0 +1,15 @@
+.footer {
+  width: 116px;
+  height: 102px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  &__container {
+    width: 116px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

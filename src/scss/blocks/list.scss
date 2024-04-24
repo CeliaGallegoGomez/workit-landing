@@ -1,7 +1,23 @@
 .list {
   padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 900px;
   text-align: center;
   padding-right: 16px;
+  background-color: #fcf8ff;
+  padding-right: 16px;
+  padding-top: 78px;
+  border-bottom-right-radius: 300px 50px;
+  border-bottom-left-radius: 300px 50px;
+  &__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
   &__number {
     display: flex;
     justify-content: center;
@@ -21,6 +37,7 @@
     line-height: 36px;
     color: #24053e;
     font-weight: 600;
+    margin: 0;
   }
 
   &__text {

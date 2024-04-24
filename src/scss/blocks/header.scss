@@ -1,11 +1,14 @@
 @use "../mixins/pseudo.scss" as *;
 
-
 .header {
   display: flex;
   margin-bottom: 64px;
   flex-direction: column;
   align-items: center;
+  width: 375px;
+  background-color: #24053e;
+  border-bottom-right-radius: 300px 50px;
+  border-bottom-left-radius: 300px 50px;
 
   &__title {
     font-family: "Fraunces";
@@ -14,6 +17,7 @@
     line-height: 50px;
     font-weight: 600;
     text-align: center;
+    color: white;
   }
   &__image {
     margin-top: 64px;
