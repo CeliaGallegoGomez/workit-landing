@@ -1,4 +1,7 @@
 .list {
+  padding-left: 16px;
+  text-align: center;
+  padding-right: 16px;
   &__number {
     display: flex;
     justify-content: center;
@@ -10,5 +13,21 @@
     font-family: "Fraunces";
     color: #24053e;
     font-weight: 600;
+  }
+
+  &__title {
+    font-family: "Fraunces";
+    font-size: 28px;
+    line-height: 36px;
+    color: #24053e;
+    font-weight: 600;
+  }
+
+  &__text {
+    color: #584d62;
+    font-family: "Manrope";
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
   }
 }
